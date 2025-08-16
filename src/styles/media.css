@@ -1,0 +1,23 @@
+.media {
+  background-color: #181818;
+  text-align: center;
+}
+
+.media h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.media-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.media-content img, 
+.media-content video {
+  width: 300px;
+  border-radius: 12px;
+  object-fit: cover;
+}
