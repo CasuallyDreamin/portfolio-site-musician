@@ -1,30 +1,30 @@
-# Portfolio website for a musician friend 
+# 🎸 Portfolio Website for a Musician  
 
-Single page application website meant to be used by my friend for promotion purposes.
+A single-page portfolio website built for a musician friend to showcase their work, promote releases, and share contact information.  
 
-# stack:
-Vite + React (JavaScript)
-html + css
+## 🛠️ Tech Stack
+- **Frontend:** Vite + React (JavaScript)  
+- **Styling:** HTML + CSS  
 
-# includes:
-## hero section
-Full page welcome screen
+## 📌 Features
+### 🎤 Hero Section
+- Full-page welcome screen with a strong first impression.  
 
-## About section
-Short introduction of the musician
+### 👤 About Section
+- Short introduction of the musician, background, and style.  
 
-## Work section
-Card view section to show off achievements, releases and activities
+### 🎶 Work Section
+- Card-style layout to highlight achievements, releases, and activities.  
 
-## Media section
-Optional for embedding youtube/soundcloud iframes for a more direct understanding of the artist
+### 📺 Media Section
+- Optional section for embedding YouTube / SoundCloud (or other) media players.  
+- Gives visitors a direct way to experience the artist’s work.  
 
-## Contact section
-Social links and contact information
+### 📬 Contact Section
+- Social links and contact information for easy reach.  
 
-## Navbar
-Smooth navigation to different sections
+### 🧭 Navbar
+- Smooth scrolling navigation between sections.  
 
-# extra:
-Smooth Fade-In effect for sections to be easier on the eyes
-
+## ✨ Extras
+- Fade-in animation for sections, making the site feel smooth and easy on the eyes.  
