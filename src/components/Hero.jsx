@@ -10,7 +10,7 @@ function Hero() {
       ref={ref}
       className={`hero ${isVisible ? "fade-in" : "fade-out"}`}
     >
-      <h1>Welcome! I am [Name]</h1>
+      <h1>Welcome! I Am Ebrahim Zakeri Qeshmi</h1>
     </section>
   );
 }
