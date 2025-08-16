@@ -1,12 +1,30 @@
-# React + Vite
+# 🎸 Portfolio Website for a Musician  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A single-page portfolio website built for a musician friend to showcase their work, promote releases, and share contact information.  
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
+- **Frontend:** Vite + React (JavaScript)  
+- **Styling:** HTML + CSS  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
+### 🎤 Hero Section
+- Full-page welcome screen with a strong first impression.  
 
-## Expanding the ESLint configuration
+### 👤 About Section
+- Short introduction of the musician, background, and style.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🎶 Work Section
+- Card-style layout to highlight achievements, releases, and activities.  
+
+### 📺 Media Section
+- Optional section for embedding YouTube / SoundCloud (or other) media players.  
+- Gives visitors a direct way to experience the artist’s work.  
+
+### 📬 Contact Section
+- Social links and contact information for easy reach.  
+
+### 🧭 Navbar
+- Smooth scrolling navigation between sections.  
+
+## ✨ Extras
+- Fade-in animation for sections, making the site feel smooth and easy on the eyes.  
