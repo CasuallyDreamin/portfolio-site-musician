@@ -3,11 +3,11 @@
   top: 0;
   width: 100%;
   height: 8vh;
-  background-color: #121212cc; /* semi-transparent */
+  background-color: #121212cc;
   backdrop-filter: blur(6px);
   z-index: 100;
-  padding: 0 2rem; /* horizontal padding */
-  box-sizing: border-box; 
+  padding: 0 2rem;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,10 +15,12 @@
 
 .navbar ul {
   display: flex;
-  gap: 2rem;
   list-style: none;
   margin: 0;
   padding: 0;
+  justify-content: center;
+  flex-wrap: wrap; /* allows wrapping on very small screens */
+  gap: clamp(0.5rem, 2vw, 2rem); /* dynamic spacing based on viewport width */
 }
 
 .navbar a {
@@ -26,6 +28,10 @@
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s;
+  white-space: nowrap; /* prevents breaking words */
+  font-size: clamp(0.8rem, 1.2vw, 1rem); /* scales text on small screens */
+/* Remove touch highlight on mobile */
+  -webkit-tap-highlight-color: transparent;
 }
 
 .navbar a:hover {
