@@ -34,5 +34,34 @@
   object-fit: cover;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
+.about-toggle {
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid;
+  border-radius: 6px;
+  background-color: transparent;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 
-/* Fade-in effect already handled by useFadeIn */
+.about-toggle:hover {
+  color: #808080;
+  border-color:aliceblue;
+}
+
+.about-extra {
+  margin-top: 1rem;
+  animation: fadeSlide 0.5s ease forwards;
+}
+
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

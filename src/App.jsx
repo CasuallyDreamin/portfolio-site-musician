@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Work from "./components/Work";
-import Media from "./components/Media";
+import Discography from "./components/Discography";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar"
 
@@ -22,7 +22,7 @@ function App() {
       <Hero />
       <About />
       <Work />
-      <Media />
+      <Discography />
       <Contact />
     </>
   );
