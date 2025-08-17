@@ -6,34 +6,44 @@
   background-color: #121212cc;
   backdrop-filter: blur(6px);
   z-index: 100;
-  padding: 0 2rem;
+  padding: 0 1rem;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden; /* prevents horizontal bleed */
 }
 
 .navbar ul {
   display: flex;
+  gap: 1.5rem;
   list-style: none;
   margin: 0;
   padding: 0;
-  justify-content: center;
-  flex-wrap: wrap; /* allows wrapping on very small screens */
-  gap: clamp(0.5rem, 2vw, 2rem); /* dynamic spacing based on viewport width */
+  flex-shrink: 1; /* shrink slightly to fit small screens */
 }
 
 .navbar a {
   color: #f5f5f5;
   text-decoration: none;
   font-weight: 500;
+  font-size: 1rem;
   transition: color 0.3s;
-  white-space: nowrap; /* prevents breaking words */
-  font-size: clamp(0.8rem, 1.2vw, 1rem); /* scales text on small screens */
-/* Remove touch highlight on mobile */
-  -webkit-tap-highlight-color: transparent;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent; /* remove blue box on mobile */
 }
 
 .navbar a:hover {
   color: #ff6f61;
+}
+
+/* Extra small screens: shrink links and gap slightly */
+@media (max-width: 400px) {
+  .navbar ul {
+    gap: 1rem;
+  }
+
+  .navbar a {
+    font-size: 0.9rem;
+  }
 }
