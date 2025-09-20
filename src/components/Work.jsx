@@ -1,26 +1,24 @@
 import "../styles/work.css";
 import useFadeIn from "../hooks/useFadeIn";
 
-// image imports
 import album_cover from "../assets/vertical-axis.jpeg"
 import solo_cover from "../assets/single-track1.jpeg"
 import live_record from "../assets/single2.jpg"
 
-// Example project data; you can replace with real projects
 const projects = [
   {
-    title: "Album Production",
-    description: "Produced a full-length post-metal album with immersive soundscapes.",
+    title: "Route71",
+    description: "Producing full-length post-rock albums and singles with immersive soundscapes.",
     image: album_cover,
   },
   {
-    title: "Bass Solo EP",
-    description: "Composed and recorded a solo EP highlighting bass techniques.",
+    title: "Solo Production",
+    description: "Composing and recording solo projects.",
     image: solo_cover,
   },
   {
-    title: "Live Recording Session",
-    description: "Captured the essence of a live band performance with professional mixing.",
+    title: "Record, Mix and Master in EZ Music Studio",
+    description: "Capturing the essense of professional and talented musicians.",
     image: live_record,
   },
 ];
