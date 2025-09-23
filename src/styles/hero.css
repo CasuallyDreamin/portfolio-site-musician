@@ -6,11 +6,12 @@
   align-items: center;
   text-align: center;
 
-  background-image: url('../assets/studio.jpg');
+  background-image: url('../assets/temp2.JPG');
   background-size: cover;
   background-position: center;
   position: relative;
   color: #fff;
+  filter: saturate(0.3)
 }
 
 .hero::before {
