@@ -53,3 +53,7 @@
   font-size: 0.95rem;
   color: #aaa;
 }
+
+a:hover {
+  text-decoration: underline;
+}

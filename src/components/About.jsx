@@ -11,7 +11,7 @@ function About() {
     <section
       id="about"
       ref={ref}
-      className={`about ${isVisible ? "fade-in" : "fade-out"}`}
+      className="about"
     >
       <div className="about-grid">
         <div className="about-photo">
@@ -24,8 +24,6 @@ function About() {
             who tells stories from the southernmost part of
             Iran through his music.
           </p>
-          {expanded && (
-            <div className="about-extra">
               <p>
               Drawing inspiration from Rock, Funk, Blues, and Fusion,
               I create music where the bass
@@ -35,9 +33,9 @@ function About() {
 
             <p>
               My musical journey began at age 16 after watching an Eric Clapton concert.
-              In 2012, I co-founded the post-rock band "Route 71"
-              and have since collaborated with groups like "Jalboat"
-              and "Pipeh Band."
+              In 2012, I co-founded the post-rock band "<a href="https://soundcloud.com/route71?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank" rel="noopener noreferrer">Route 71</a>"
+              and have since collaborated with groups like "<a href="https://open.spotify.com/album/4QnvWBeNY4Ix19422zpP4V?si=wejjdhvpQf2VPPQ-HbW2jQ" target="_blank" rel="noopener noreferrer">Jalboat</a>"
+              and "Pipeh Band".
             </p>
 
             <p>  
@@ -46,18 +44,9 @@ function About() {
             </p>
             
             <p>
-              My recent work includes the single "Cold Rain Place" and the latest "Route 71" album. I continue to create and collaborate with other artists.
+              My recent work includes the single "<a href="https://open.spotify.com/track/6yk99I4VYB72cN9723A7k4?si=f85718552a544c9a" target="_blank" rel="noopener noreferrer">Cold Rain Place</a>" and the latest "<a href="https://soundcloud.com/route71?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank" rel="noopener noreferrer">Route 71</a>" album. I continue to create and collaborate with other artists.
             </p>
           </div>
-          )}
-
-      <button
-        className="about-toggle"
-        onClick={() => setExpanded(!expanded)}
-        >
-          {expanded ? "Read Less ▲" : "Read More ▼"}
-        </button>
-      </div>
       </div>
     </section>
   );

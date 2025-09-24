@@ -7,8 +7,9 @@
   text-align: center;
 
   background-image: url('../assets/temp2.JPG');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
   position: relative;
   color: #fff;
   filter: saturate(0.3)
@@ -30,4 +31,19 @@
 .hero p {
   font-size: 1.25rem;
   max-width: 600px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 60vh;
+    padding: 0 1rem;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
 }

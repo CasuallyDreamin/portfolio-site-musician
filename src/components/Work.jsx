@@ -1,8 +1,8 @@
 import "../styles/work.css";
 import useFadeIn from "../hooks/useFadeIn";
 
-import album_cover from "../assets/vertical-axis.jpeg"
-import solo_cover from "../assets/single-track1.jpeg"
+import album_cover from "../assets/vertical-axis.jpg"
+import solo_cover from "../assets/cold-rain-place.jpg"
 import live_record from "../assets/single2.jpg"
 
 const projects = [
@@ -19,6 +19,7 @@ const projects = [
   {
     title: "Record, Mix and Master in EZ Music Studio",
     description: "Capturing the essense of professional and talented musicians.",
+    link: "https://soundcloud.com/mehdimonfared5708/paskang?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
     image: live_record,
   },
 ];
@@ -37,7 +38,7 @@ function Work() {
         {projects.map((project, index) => (
           <div key={index} className="work-card">
             <img src={project.image} alt={project.title} />
-            <h2>{project.title}</h2>
+            {project.link ? <h2><a href={project.link}>{project.title}</a></h2> : <h2>{project.title}</h2>}
             <p>{project.description}</p>
           </div>
         ))}
